@@ -2,7 +2,7 @@ final class Box {
     static void display(int data) {
         System.out.println(data);
     }
-    static int j = 30;
+    static int j = 25;
   
 public static void main(String[] args)
     {
