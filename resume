@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ressume</title>
+</head>
+<style>
+    body {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3kfDi6_M-eoPWn5QOnclEu7mq-4n4ZMRdOw&usqp=CAU);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #profile {
+        width: 10%;
+        height: 20%;
+    }
+    
+    .container {
+        width: 100%;
+        display: flex;
+        font-display: red;
+        margin: 15px;
+    }
+    
+    .name {
+        font-size: 4vw;
+        color: whitesmoke;
+    }
+    
+    .intro {
+        font-size: 2vw;
+        color: rgb(204, 118, 118);
+    }
+    
+    .row1 {
+        text-align: left;
+        background-color: #18232f;
+        line-height: 0.5px;
+        width: 86%;
+        padding-left: 2%;
+    }
+    
+    a {
+        outline: none;
+        text-decoration: none;
+        padding: 12px 10px 10px;
+        text-align: center;
+        color: whitesmoke;
+        border: 0px solid black;
+    }
+    
+    a:link {
+        color: white;
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: white;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: white;
+        text-decoration: solid;
+        border-bottom: 1px solid;
+    }
+    
+    a:active {
+        color: white;
+        text-decoration: solid;
+        border-bottom: 1px solid;
+    }
+    
+    .col2 {
+        text-align: left;
+        background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.4));
+        margin: 2% 2% 0 2%;
+        width: 80%;
+    }
+    
+    .col1 {
+        text-align: left;
+        background-color: transparent;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 80%;
+    }
+    
+    .box {
+        text-align: left;
+        width: 86%;
+        padding-left: 2%;
+        margin-top: 2%;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.4));
+    }
+    
+    #about {
+        font-size: 2.5vw;
+        font-weight: bolder;
+        padding-top: 1%;
+        padding-left: 4%;
+        font-family: helvetica;
+    }
+    
+    #contact {
+        font-size: 1.3vw;
+        font-weight: bolder;
+        padding-top: 1%;
+        padding-left: 1%;
+        font-family: helvetica;
+    }
+    
+    .brief {
+        font-size: 1vw;
+        padding: 0px 10% 5% 10%;
+    }
+    
+    .nbrief {
+        font-size: 1.2vw;
+        padding: 0px 10% 5% 10%;
+    }
+    
+    table {
+        font-size: 1.3vw;
+        border: 1px solid black;
+        border-width: 1px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <img src="IMG_20210416_153850.jpg" alt="Profile photo" id="profile">
+        <div class="row1">
+            <p class="name">
+                <b>Sneh Patel</b>
+            </p>
+            <p class="intro">
+                Student at IIIT Kota</p>
+            <hr size="5px" width=99% align="left">
+        </div>
+    </div>
+    <div class="container">
+        <div class="col1">
+            <div class="box">
+                <p id="contact">
+                    Contact Details
+                </p>
+                <p class="brief">
+                    &#x2022 <strong>Mobile Number :-</strong>&nbsp; 9309063740 & 9314521467 <br> &#x2022
+                    <strong>Email Address :-</strong>&nbsp; 2020kuec2016@iiitkota.ac.in <br> &#x2022
+                    <strong>Github Id :-</strong>&nbsp; Sneh_Patel51 <br>&#x2022
+                    <strong>Other Contact Methods</strong><br>
+                    <a href="http://www.inatagram.com/sneh_patel51?r=nametag"><img src="data:image/png;base64,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"
+                            width=10%></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </p>
+            </div>
+            <div class="box">
+                <p id="contact">
+                    Work History
+                </p>
+                <p class="brief">
+                    &#x2022 Not yet got the opportunity to work for a company or open a new company, But i can assure that i will be a dedicated worker at the work with full sensierity.
+                </p>
+            </div>
+            <div class="box">
+                <p id="contact">
+                    Qualifications
+                </p>
+                <p class="brief">
+                    <table cellspacing=10>
+                        <tr>
+                            <td>S.S.C</td>
+                            <td>Maheshwari Public School</td>
+                            <td>94%</td>
+                            <td>2018</td>
+                        </tr>
+                        <tr>
+                            <td>H.S.C (Science Stream)</td>
+                            <td>Maheshwari Public School</td>
+                            <td>92.2%</td>
+                            <td>2019</td>
+                        </tr>
+                        <tr>
+                            <td>JEE Mains</td>
+                            <td>Maheshwari Public School</td>
+                            <td>97.2 %ile</td>
+                            <td>2020</td>
+                        </tr>
+                        <tr>
+                            <td>JEE Advance</td>
+                            <td>Maheshwari Public School</td>
+                            <td>15230</td>
+                            <td>2020</td>
+                        </tr>
+                    </table>
+                </p>
+                <p id="contact">
+                    Other Activities
+                </p>
+                <p class="brief">
+                    &#x2022 <strong>Gaming :- </strong> Played in various Valorant Tournaments. good in PUBG mobile as well <br>
+                </p>
+            </div>
+        </div>
+        <div class="col2">
+            <p id="about">
+                About Me
+            </p>
+            <p class="nbrief">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel error suscipit hic voluptates consectetur sequi eveniet, aliquid quidem aut doloribus. Explicabo dignissimos totam esse quos laudantium, iure delectus obcaecati architecto accusamus sint praesentium
+                incidunt, libero corrupti iusto exercitationem illo harum expedita mollitia? Provident, possimus doloribus expedita ducimus iste facilis perferendis quas distinctio eius, eum nostrum quidem sed iusto atque eligendi vel dolores quia quo
+                magni, rem quam nesciunt porro.
+            </p>
+            <p class="nbrief">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quam optio, laudantium quas minima inventore culpa porro nostrum voluptates, ab nulla magni exercitationem repudiandae similique accusamus eaque dolorem aspernatur commodi assumenda fugiat
+                itaque aut velit adipisci. Omnis error adipisci qui doloremque tenetur praesentium natus similique vel nulla debitis distinctio veniam officiis velit animi labore vitae beatae impedit earum illum, est voluptatibus pariatur veritatis quibusdam
+                vero! Vero numquam illum ab?
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
